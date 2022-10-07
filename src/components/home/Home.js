@@ -8,7 +8,7 @@ const Home = () => {
     return(
         <section className='section-home'>
             <h2>Hola 👋</h2>
-            <p className='legend'>Bienbenido a mi colección dígital</p>
+            <p className='legend'>Bienvenido a mi colección digital</p>
             <p>
                 He desarrollado mi carrera como creador de software y contenidos digitales, para construir herramientas de comunicación y organización, tengo años de experiencia en el autoaprendizaje y la docencia, el cual me ha permitido desarrollar habilidades como; disciplina, trabajo en equipo y la facilidad de nuevos aprendizajes.
             </p>
