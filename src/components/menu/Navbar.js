@@ -5,6 +5,7 @@ import img_home from '../../assets/home/list_img_home';
 import Footer from '../footer/Footer';
 
 const Navbar = () => {
+
     return(
         <section className='navbar'>
             <div>

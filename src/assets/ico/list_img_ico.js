@@ -1,9 +1,9 @@
 import certificate from './certificate.png';
-import email from './email.svg';
-import facebook from './facebook.svg';
-import github from './github.svg';
-import instagram from './instagram.svg';
-import linkedin  from './linkedin.svg';
+import email from './email.png';
+import facebook from './facebook.png';
+import github from './github.png';
+import instagram from './instagram.png';
+import linkedin  from './linkedin.png';
 
 const img_ico = [
     {

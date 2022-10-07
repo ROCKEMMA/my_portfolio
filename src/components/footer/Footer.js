@@ -18,7 +18,7 @@ const Footer = () =>{
         <ul className='ico_list'>
             <Icono image_index={0} url={'/'}/>
             <Icono image_index={1} url={'/'}/>
-            <Icono image_index={2} url={'/'}/>
+{/* ss */}
             <Icono image_index={3} url={'/'}/>
             <Icono image_index={4} url={'/'}/>
             <Icono image_index={5} url={'/'}/>
