@@ -1,0 +1,31 @@
+.section-certificate{
+    display: none;
+}
+
+.list-certificates {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+}
+.title{
+    font-size: 4rem;
+    color: var(--blue-lite);
+    font-weight: 800;
+    margin-bottom: 3.5rem;
+}
+.item-certificate {
+    list-style: none;
+    margin: 1rem;
+}
+.item-certificate .img-certificate {
+    width: 100%;
+}
+
+/* CONFIGURACIÓN 1920 X 1080 */
+@media only screen and (min-width: 1900px) {
+    .list-certificates {
+        grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+    }
+  }

@@ -1,0 +1,30 @@
+.body {
+    display: flex;
+}
+.section-container {
+    width: 100%;
+    padding: 1.2rem;
+}
+.section-container > section {
+    max-width: 60rem;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.section-container > .section-applies {
+    max-width: 80rem;
+    margin: auto;
+    margin-top: 10%;
+}
+
+/* configuración 1920 x 1080 */
+@media only screen and (min-width: 1600px) {
+    .section-container > section {
+        max-width: 120rem;
+        margin-top: 8%;
+    }
+    .section-container > .section-applies {
+        max-width: 120rem;
+        margin-top: 8%;
+    }
+  }
