@@ -1,7 +1,9 @@
 .section-certificate{
     display: none;
 }
-
+.active {/* <---- Activar página */
+    display: block;
+}
 .list-certificates {
     width: 100%;
     height: 100%;

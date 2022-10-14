@@ -1,0 +1,10 @@
+.section-stacks {
+    display: none;
+}
+.active {/* <---- Activar página */
+    display: block;
+
+}
+img {
+    width: 70%;
+}

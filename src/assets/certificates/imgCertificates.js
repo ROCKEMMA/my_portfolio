@@ -8,6 +8,11 @@ import javascript1 from './javascript1.jpg';
 import linux1 from './linux1.jpg';
 import notion1 from './notion1.jpg';
 import terminal_y_linea_de_comandos1 from './terminal_y_linea_de_comandos1.jpg';
+import diploma_excel_analisis_datos from './diploma_excel_analisis_datos.jpg';
+import diploma_ingles_principiantes from './diploma_ingles_principiantes.jpg';
+import diploma_javascript_navegador from './diploma_javascript_navegador.jpg';
+import diploma_asincronismo_js from './diploma_asincronismo_js.jpg';
+import diploma_design_thinking from './diploma_design_thinking.jpg';
 
 const imgCertificates = [
     {
@@ -48,6 +53,27 @@ const imgCertificates = [
     },
     {
         "img": terminal_y_linea_de_comandos1,
+        "alt": "img"
+    },
+
+    {
+        "img": diploma_excel_analisis_datos,
+        "alt": "img"
+    },
+    {
+        "img": diploma_ingles_principiantes,
+        "alt": "img"
+    },
+    {
+        "img": diploma_javascript_navegador,
+        "alt": "img"
+    },
+    {
+        "img": diploma_asincronismo_js,
+        "alt": "img"
+    },
+    {
+        "img": diploma_design_thinking,
         "alt": "img"
     },
 

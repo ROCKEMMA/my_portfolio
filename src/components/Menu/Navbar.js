@@ -10,11 +10,12 @@ import { useState } from 'react';
 const Navbar = (props) => {
 
     // Estado del boto
-   const [page, setPage] = useState(1);
+/*    const [page, setPage] = useState(1);
 
     const activeButton = (pageIndex) => {
         setPage(pageIndex);
-    }
+        console.log('completo');
+    } */
 
     return(
         <section className='navbar'>
@@ -27,26 +28,26 @@ const Navbar = (props) => {
                 <nav className='nav-box'>
                     <ul className='nav'>
                         <li 
-                        className={page === 1 ? "active-btn" : null}
-                        onClick={()=> activeButton(1)}
+                        className={`li ${props.page === 1 ? "active-btn" : null}`}
+                        onClick={()=> props.setPage(1)}
                         >Home</li>
 
-                        <li className='menu-subtitle'>Content</li>
+                        <li className='li menu-subtitle'>Content</li>
 
-                        {/* <li
-                        className={page === 2 ? "active-btn" : null}
-                        onClick={()=> activeButton(2)}
-                        >Certificates</li> */}
+                        <li
+                        className={`li ${props.page === 2 ? "active-btn" : null}`}
+                        onClick={()=> props.setPage(2)}
+                        >Certificates</li>
                         
-{/*                         <li
-                        className={page === 3 ? "active-btn" : null}
-                        onClick={()=> activeButton(3)}
+                        <li
+                        className={`li ${props.page === 3 ? "active-btn" : null}`}
+                        onClick={()=> props.setPage(3)}
                         >Stack</li>
 
                         <li
-                        className={page === 4 ? "active-btn" : null}
-                        onClick={()=> activeButton(4)}
-                        >Portfolio</li> */}
+                        className={`li ${props.page ===4 ? "active-btn" : null}`}
+                        onClick={()=> props.setPage(4)}
+                        >Portfolio</li>
                     </ul>
                 </nav>
             </div>
