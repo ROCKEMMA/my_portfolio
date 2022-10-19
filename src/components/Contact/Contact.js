@@ -18,7 +18,7 @@ function Contact (props){
     return(
         <section className={`section-contact ${props.page === 4 ? "active" : null}`}>
             
-            <div>
+{/*             <div>
                 <span>Contactame</span>
                 <p>
                 Completa el formulario y estaremos en contacto, también puede contactarme en mis redes sociales.
@@ -52,7 +52,7 @@ function Contact (props){
                 autoComplete='off'
                 onChange={handleChange}
                 />
-            </div>
+            </div> */}
         </section>
     );
 }
