@@ -12,7 +12,7 @@ import './App.css'
 function App() {
 
       // Estado para la vegación
-      const [page, setPage] = useState(4);
+      const [page, setPage] = useState(1);
 
   return (
 
