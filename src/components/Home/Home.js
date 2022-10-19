@@ -18,7 +18,10 @@ const Home = (props) => {
             <hr/>
             <div className='portfolio-link'>
                 <span>→ </span>
-                {/* <a href='https://rockemma.notion.site/Certificados-y-diplomas-3eff3f81b6f24f27a4dddfe0028cf188'>Ver certificados</a> */}
+                <p 
+                className='certificate-link'
+                onClick={()=> props.setPage(2)
+                }>Ver certificados</p>
             </div>
             
         </section>

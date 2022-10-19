@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f69849fa.css",
-    "main.js": "/static/js/main.bd37b3c4.js",
+    "main.css": "/static/css/main.43cf29fb.css",
+    "main.js": "/static/js/main.934d742f.js",
     "static/js/787.a4a48f9e.chunk.js": "/static/js/787.a4a48f9e.chunk.js",
-    "static/media/en_progreso.gif": "/static/media/en_progreso.3272fa9c861c718b769a.gif",
     "static/media/diploma_asincronismo_js.jpg": "/static/media/diploma_asincronismo_js.b68ce35d57ebec2130fc.jpg",
     "static/media/diploma_javascript_navegador.jpg": "/static/media/diploma_javascript_navegador.ce0075d211190aa92b1c.jpg",
     "static/media/fundamentos_de_ingeniería_de_software.jpg": "/static/media/fundamentos_de_ingeniería_de_software.08752ddd182d26711a9d.jpg",
@@ -15,22 +14,36 @@
     "static/media/diploma_python.jpg": "/static/media/diploma_python.d09df774a70a0b414fcd.jpg",
     "static/media/git_y_Github.jpg": "/static/media/git_y_Github.3e4b5724bfdbd6d7b3cf.jpg",
     "static/media/figma.jpg": "/static/media/figma.f6084253b85993ea907b.jpg",
+    "static/media/linode.png": "/static/media/linode.13f4628c36bf81053292.png",
     "static/media/notion1.jpg": "/static/media/notion1.f3a7941f39b21b97a8e5.jpg",
     "static/media/terminal_y_linea_de_comandos1.jpg": "/static/media/terminal_y_linea_de_comandos1.605760bdb3e083c5a71c.jpg",
     "static/media/javascript1.jpg": "/static/media/javascript1.ab70881dbaa129926bcb.jpg",
     "static/media/linux1.jpg": "/static/media/linux1.b23a42c411c3cf370b99.jpg",
+    "static/media/excel.png": "/static/media/excel.873ca40e2e728319bf88.png",
+    "static/media/java.png": "/static/media/java.fdabd4e11f1235e4e8e0.png",
+    "static/media/javascript.png": "/static/media/javascript.fd668b084a25f663bf42.png",
+    "static/media/react.png": "/static/media/react.25803af39958a2cb9df1.png",
+    "static/media/illustrator.png": "/static/media/illustrator.37d9aeb29a9f7e10bc27.png",
     "static/media/certificate.png": "/static/media/certificate.427fc6ef0200a27fccba.png",
     "static/media/github.png": "/static/media/github.9e094d235b4caa7c31fc.png",
+    "static/media/ubuntu.png": "/static/media/ubuntu.3f1d3ec8e62042682098.png",
     "static/media/instagram.png": "/static/media/instagram.79ea850107caae079257.png",
+    "static/media/photoshop.png": "/static/media/photoshop.77b4e5ecc7db8c0810b4.png",
+    "static/media/vscode.png": "/static/media/vscode.d793c746fbc937f66e3d.png",
+    "static/media/figma.png": "/static/media/figma.532313dc5d4b44542938.png",
+    "static/media/bash.png": "/static/media/bash.c9071c1c77a68118bacc.png",
+    "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/sql.png": "/static/media/sql.934b5a16397ffe001902.png",
+    "static/media/notion.png": "/static/media/notion.7aa264a898951e791ee3.png",
     "static/media/linkedin.png": "/static/media/linkedin.9f66e19d36a7a7df148d.png",
     "index.html": "/index.html",
     "static/media/logo_perfil_blanco.svg": "/static/media/logo_perfil_blanco.62291c6728fa7b979f93e42af822bd49.svg",
-    "main.f69849fa.css.map": "/static/css/main.f69849fa.css.map",
-    "main.bd37b3c4.js.map": "/static/js/main.bd37b3c4.js.map",
+    "main.43cf29fb.css.map": "/static/css/main.43cf29fb.css.map",
+    "main.934d742f.js.map": "/static/js/main.934d742f.js.map",
     "787.a4a48f9e.chunk.js.map": "/static/js/787.a4a48f9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f69849fa.css",
-    "static/js/main.bd37b3c4.js"
+    "static/css/main.43cf29fb.css",
+    "static/js/main.934d742f.js"
   ]
 }

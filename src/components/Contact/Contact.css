@@ -1,0 +1,6 @@
+.section-contact{
+    display: none;
+}
+.active {/* <---- Activar página */
+    display: block;
+}

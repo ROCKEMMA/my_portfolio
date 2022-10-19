@@ -2,9 +2,30 @@
     display: none;
 }
 .active {/* <---- Activar página */
-    display: block;
-
+    display: grid;
 }
-img {
-    width: 70%;
+
+/* SECTION STYLES */
+.section-stacks .title {
+    font-size: var(--h1);
+    color: var(--blue-lite);
+    margin-bottom: 3.5rem;
+}
+.stacks {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(11rem,1fr));
+}
+.stacks-box {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stacks-box > img {
+    width: 60%;
 }

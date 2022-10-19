@@ -1,21 +1,10 @@
 import img_home from '../../assets/home/list_img_home';
-
 import './Navbar.css';
 
 // COMPONENTES
 import {Footer} from '../Footer/Footer';
-import { useState } from 'react';
-
 
 const Navbar = (props) => {
-
-    // Estado del boto
-/*    const [page, setPage] = useState(1);
-
-    const activeButton = (pageIndex) => {
-        setPage(pageIndex);
-        console.log('completo');
-    } */
 
     return(
         <section className='navbar'>
@@ -42,7 +31,7 @@ const Navbar = (props) => {
                         <li
                         className={`li ${props.page === 3 ? "active-btn" : null}`}
                         onClick={()=> props.setPage(3)}
-                        >Stack</li>
+                        >Stacks</li>
 
                         <li
                         className={`li ${props.page ===4 ? "active-btn" : null}`}

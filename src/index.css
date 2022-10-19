@@ -18,3 +18,8 @@ html {
   --blue-lite:            #1E293B;
   --blue-hover:           rgb(226 232 240);
 }
+
+/* TAMAÑOS DE FUENTES */
+:root {
+    --h1: 4rem;
+}

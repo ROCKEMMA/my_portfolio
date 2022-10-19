@@ -12,10 +12,8 @@ function Item({image,description}){
 
 function Certificate (props){
 
-    console.log(props.page)
-
     return(
-        <section className={`section-certificate section-applies ${props.page === 2 ? "active" : null}`}>
+        <section className={`section-certificate ${props.page === 2 ? "active" : null}`}>
             <h2 className='title'>Certificados</h2>
             <ul className='list-certificates'>
                 {

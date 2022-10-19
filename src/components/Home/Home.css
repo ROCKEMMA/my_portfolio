@@ -27,9 +27,12 @@
     font-size: 1.6rem;
     font-weight: 500;
 }
-.section-home a {
+.certificate-link {
+    display: inline;
     color: var(--text-color-dark);
     text-decoration: underline;
+    cursor: pointer;
+
 }
 .section-home span {
     font-size: 2rem;

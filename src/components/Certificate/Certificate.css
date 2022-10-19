@@ -4,18 +4,19 @@
 .active {/* <---- Activar página */
     display: block;
 }
+
+/* SECTION STYLES */
+.section-certificate .title{
+    font-size: var(--h1);
+    color: var(--blue-lite);
+    margin-bottom: 3.5rem;
+}
 .list-certificates {
     width: 100%;
     height: 100%;
 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
-}
-.title{
-    font-size: 4rem;
-    color: var(--blue-lite);
-    font-weight: 800;
-    margin-bottom: 3.5rem;
 }
 .item-certificate {
     list-style: none;
