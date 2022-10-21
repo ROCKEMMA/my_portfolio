@@ -16,15 +16,17 @@ const Icono = ({image_index,url,target}) => {
 const Footer = () =>{
     return(
         <ul className='ico_list'>
-            <Icono image_index={0} url={'/'}/>
+{/*             <Icono image_index={0} url={'/'}/>
 
-            <Icono image_index={1} url={'/'}/>
+            <Icono image_index={1} url={'/'}/> */}
 
             <Icono image_index={3} url={'https://github.com/ROCKEMMA'} target={'_blank'}/>
             
             <Icono image_index={4} url={'https://www.instagram.com/_rockemma/'} target={'_blank'}/>
 
             <Icono image_index={5} url={'/'}/>
+
+            <Icono image_index={9} url={'https://github.com/ROCKEMMA'} target={'_blank'}/>
         </ul>
     );
 }

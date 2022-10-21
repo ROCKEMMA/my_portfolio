@@ -1,8 +1,6 @@
 .section-stacks {
     display: none;
-}
-.active {/* <---- Activar página */
-    display: grid;
+    flex-direction: column;
 }
 
 /* SECTION STYLES */

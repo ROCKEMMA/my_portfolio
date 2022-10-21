@@ -1,18 +1,20 @@
 .section-home {
     display: none;
-}
-.active {/* <---- Activar página */
-    display: block;
+
+    max-width: 60rem;
+    margin: auto;
+
+    flex-direction: column;
 }
 .section-home h2 {
-    font-size: 3.5rem;
-    color: var(--text-color-dark);
+    font-size: var(--h1);
+    color: var(--blue-lite);
 }
 .section-home .legend {
     font-weight: 600;
 }
 .section-home p {
-    font-size: 1.6rem;
+    font-size: var(--p);
     font-weight: 300;
     line-height: 3rem;
     margin-top: 3rem;

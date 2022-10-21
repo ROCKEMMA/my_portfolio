@@ -1,8 +1,6 @@
 .section-certificate{
     display: none;
-}
-.active {/* <---- Activar página */
-    display: block;
+    flex-direction: column;
 }
 
 /* SECTION STYLES */

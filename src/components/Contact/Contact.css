@@ -1,6 +1,110 @@
 .section-contact{
     display: none;
+    height: 100%;
+
+    flex-direction: column;
+    align-items: center;
 }
-.active {/* <---- Activar página */
-    display: block;
+
+/* STYLE COMPONENT */
+.from-box {
+    width: 100rem;
+    margin-top: 10%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-banner {
+    width: 50rem;
+}
+.form-banner span {
+    color: var(--blue-lite);
+    font-size: var(--h2);
+    font-weight: 600;
+}
+.form-banner p {
+    font-size: var(--p);
+    font-weight: 300;
+    color: var(--text-color-lite);
+    margin-top: 2rem;
+}
+.form-banner img {
+    width: 80%;
+    margin-top: 5rem;
+}
+
+.form {
+    width: 40rem;
+    height: 50rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.form span {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+.input-box {
+    padding: 0.5rem;
+    border: 1px solid var(--blue-hover);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+
+    display: flex;
+    align-items: center;
+}
+.input-box img {
+    width: 2rem;
+}
+.form input, textarea {
+    width: 100%;
+    height: 3rem;
+    margin-left: 0.5rem;
+    border: 0;
+    outline: none;
+    color: var(--blue-dark);
+    font-size: var(--p);
+}
+.form textarea {
+    width: 100%;
+    height: 20rem;
+    resize: none;
+    padding: 1rem;
+}
+.btn-enviar {
+    position: absolute;
+    width: 10rem;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--blue-dark);
+    color: #fff;
+    font-size: var(--p);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    right: 2rem;
+    bottom: 2rem;
+    cursor: pointer;
+}
+.btn-enviar:hover {
+    background-color: var(--text-color-lite);
+    transition: 0.3s;
+}
+
+
+/* configuración para laptop */
+@media only screen and (max-width: 1366px) {
+    .from-box {
+        max-width: 90rem;
+        margin: 5%;
+    }
+    .form-banner {max-width: 40rem;}
+
 }

@@ -22,4 +22,6 @@ html {
 /* TAMAÑOS DE FUENTES */
 :root {
     --h1: 4rem;
+    --h2: 3.5rem;
+    --p: 1.6rem;
 }

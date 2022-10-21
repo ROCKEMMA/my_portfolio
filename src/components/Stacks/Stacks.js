@@ -15,7 +15,7 @@ const StackItem = (props) =>{
 function Stacks (props){
 
     return(
-        <section className={`section-stacks ${props.page === 3 ? "active" : null}`}>
+        <section className={`section-stacks section-applies ${props.page === 3 ? "active" : null}`}>
             <h2 className='title'>Certificados</h2>
 
             <div className='stacks'>

@@ -4,24 +4,21 @@
 .section-container {
     width: 100%;
     padding: 1.2rem;
+    padding-top: 5%;
 }
-.section-container > section {
-    max-width: 60rem;
-    margin: auto;
-    margin-top: 10%;
-}
-
 .section-container > .section-applies {
-    max-width: 80rem;
+    max-width: 120rem;
     margin: auto;
-    margin-top: 10%;
 }
 
-/* configuración 1920 x 1080 */
-@media only screen and (min-width: 1600px) {
-    .section-container > section {
-        max-width: 120rem;
-        margin-top: 8%;
-    }
+/* Activación de las páginas */
+.active {
+    display: flex;
+}
 
-  }
+/* configuración para laptop */
+@media only screen and (max-width: 1366px) {
+    .section-container > .section-applies {
+        max-width: 90rem;
+    }
+}

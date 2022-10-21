@@ -4,6 +4,7 @@ import {Navbar} from '../components/Menu/Navbar';
 import {Home} from '../components/Home/Home';
 import {Certificate} from '../components/Certificate/Certificate';
 import {Stacks} from '../components/Stacks/Stacks';
+import {Portfolio} from '../components/Portfolio/Portfolio'
 import { Contact } from '../components/Contact/Contact';
 
 // hola de estilos
@@ -29,7 +30,9 @@ function App() {
         />
         <Certificate page={page} />
         <Stacks page={page}/>
+        <Portfolio page={page} />
         <Contact page={page} />
+        
       </div>
 
     </div>

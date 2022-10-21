@@ -37,6 +37,11 @@ const Navbar = (props) => {
                         className={`li ${props.page ===4 ? "active-btn" : null}`}
                         onClick={()=> props.setPage(4)}
                         >Portfolio</li>
+
+                        <li
+                        className={`li ${props.page ===5 ? "active-btn" : null}`}
+                        onClick={()=> props.setPage(5)}
+                        >Contactar</li>
                     </ul>
                 </nav>
             </div>
