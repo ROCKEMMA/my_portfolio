@@ -1,0 +1,6 @@
+@media only screen and (max-width: 375px) {
+    .modal-content  {
+        max-width: 100%;
+        height: 15rem;
+    }
+}

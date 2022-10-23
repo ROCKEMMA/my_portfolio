@@ -1,0 +1,5 @@
+@media only screen and (max-width: 375px) {
+    .ico_list {
+        display: none;
+    }
+}

@@ -28,11 +28,14 @@
     height: 15rem;
     border-radius: 100%;
 }
-.profile-picture-box > img{
+.logo-desktop, .ico-menu, .ico-closed{
     width: 100%;
     height: 100%;
     border-radius: 100%;
     object-fit: cover;
+}
+.ico-menu, .ico-closed {
+    display: none;
 }
 .profile-box > p {
     color: var(--text-color-dark);

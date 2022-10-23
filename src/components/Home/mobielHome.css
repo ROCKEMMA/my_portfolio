@@ -1,0 +1,46 @@
+/* configuración para movil */
+@media only screen and (max-width: 375px) {
+    
+.section-home {
+    display: none;
+
+    max-width: 60rem;
+    margin: auto;
+
+    flex-direction: column;
+}
+.section-home h2 {
+    font-size: var(--h1);
+    color: var(--blue-lite);
+}
+.section-home .legend {
+    font-weight: 600;
+}
+.section-home p {
+    font-size: var(--p);
+    font-weight: 300;
+    line-height: 3rem;
+    margin-top: 3rem;
+    color: var(--text-color-lite);
+}
+.section-home hr {
+    margin-top: 5rem;
+}
+.section-home .portfolio-link {
+    margin-top: 2rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.certificate-link {
+    display: inline;
+    color: var(--text-color-dark);
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.section-home span {
+    font-size: 2rem;
+    font-weight: 800;
+}
+}

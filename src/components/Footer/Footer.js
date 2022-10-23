@@ -1,5 +1,6 @@
 import img_ico from '../../assets/ico/list_img_ico';
 import './Footer.css';
+import './MobileFooter.css';
 
 // COMPONENTE LI
 const Icono = ({image_index,url,target}) => {

@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import './Contact.css';
+import './MobileContact.css';
 import './Modal.css';
+import './MobileModal.css';
 import img_ico from '../../assets/ico/list_img_ico';
 import emailjs from '@emailjs/browser';
 
@@ -21,6 +23,7 @@ function Contact (props){
         .then((result) => {
             modal.showModal();
         }, (error) => {
+            modal.showModal();
     });}
 
     // MODAL PROGRAMMING
@@ -41,6 +44,8 @@ function Contact (props){
                     </p>
                     <img src='https://static.vecteezy.com/system/resources/thumbnails/004/579/307/small_2x/programmer-working-on-computer-with-lots-of-data-free-vector.jpg' alt=''/>
                 </div>
+
+                <hr className='line'/>
 
                 {/* Form section */}
                 <form className='form' ref={form} onSubmit={sendEmail}>

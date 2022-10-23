@@ -8,6 +8,8 @@ import envelope from './envelope.svg';
 import user from './user.svg';
 import rocket from './rocket.svg';
 import tiktok from './tiktok.png';
+import bars from './bars-solid.svg'
+import closed from './closed.png';
 
 const img_ico = [
     {
@@ -50,7 +52,16 @@ const img_ico = [
         "img": tiktok,
         "alt": "Description"
     },
+    {
+        "img": bars,
+        "alt": "Description"
+    },
+    {
+        "img": closed,
+        "alt": "Description"
+    }
 ];
+
 
 
 export default img_ico;

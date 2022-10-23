@@ -9,6 +9,7 @@ import { Contact } from '../components/Contact/Contact';
 
 // hola de estilos
 import './App.css'
+import './MobileApp.css';
 
 function App() {
 

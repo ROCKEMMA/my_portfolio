@@ -1,0 +1,63 @@
+/* configuración para movil */
+@media only screen and (max-width: 375px) {
+    .navbar {
+        width: 100%;
+        /* height: 100vh; */
+        height: auto;
+        position:static;
+    }
+    /* SECTION PERFIL */
+    .profile-box {
+        margin-top: 0%;
+    
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .profile-picture-box {
+        width: 3rem;
+        height: 3rem;
+    }
+    .logo-desktop{display: none;}
+    .ico-menu {display: block; border-radius: 0;}
+
+    .profile-box > p {
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+
+    /* SECTION MENU */
+    .nav-box {
+        margin-top: 2rem;
+        display: none;
+    }
+    .active-nav-bar {
+        display: block;
+    }
+    .inactive-nav-bar {
+        display: none;
+    }
+    .li{
+        height: 4rem;
+        font-size: var(--p);
+    }
+    
+    .li:hover {
+        background-color: var(--blue-hover);
+    }
+    
+    .active-btn {
+        background-color: var(--blue-lite);
+        color: #fff;
+        pointer-events: none;
+    }
+    
+    .nav .menu-subtitle {
+        color: var(--text-color-opacity);
+        font-weight: 600;
+        cursor: default;
+        pointer-events: none;
+        border-bottom: 1px solid rgb(226 232 240);
+    }
+    
+}
