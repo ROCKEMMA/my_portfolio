@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import './Contact.css';
+import './Modal.css';
 import img_ico from '../../assets/ico/list_img_ico';
 import emailjs from '@emailjs/browser';
 
@@ -7,26 +8,32 @@ import emailjs from '@emailjs/browser';
 
 function Contact (props){
 
-    // PROGRAMACIÓN DE LA API
+    // REFERENCE TO DOM MODAL
+    let modal = document.querySelector('#modal');
+
+    // PROGRAMMING API EmailJS
     const form = useRef();
-    const myForm = document.querySelector('form');
       
     const sendEmail = (e) => {
       e.preventDefault();
       
-      emailjs.sendForm('service_lod5trq', 'template_b40hr0b', form.current, 'G5o3t0hG-CRduk9k')
+      emailjs.sendForm('service_lod5trq', 'template_b40hr0b', form.current, 'G5o3t0hG-CRduk9kW')
         .then((result) => {
-            console.log(result.text);
-            myForm.reset();
+            modal.showModal();
         }, (error) => {
-            console.log(error.text);
     });}
-    
+
+    // MODAL PROGRAMMING
+    const closeModal = ()=> {
+        modal.close();
+        form.current.reset();
+    }
 
     return(
         <section className={`section-contact section-applies ${props.page === 5 ? "active" : null}`}>
             
             <div className='from-box'>
+                {/* Form banner */}
                 <div className='form-banner'>
                     <span>Contactame</span>
                     <p>
@@ -71,7 +78,15 @@ function Contact (props){
                     </button>
 
                 </form>
-    
+
+                {/* Modal section*/}
+                <dialog id='modal'>
+                    <div className='modal-content'>
+                        <p>¡Ahora estaremos en contacto!</p>
+                        <div id='btn-to-close' onClick={closeModal}>Cerrar</div>
+                    </div>
+                </dialog>
+
             </div>
 
         </section>
