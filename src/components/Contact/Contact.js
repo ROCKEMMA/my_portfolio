@@ -49,7 +49,7 @@ function Contact (props){
                         <img src={`${img_ico[7].img}`} alt=''/>
                         <input 
                         type='text'
-                        name='user_name'
+                        name='from_name'
                         autoComplete='off'
                         />
                     </div>
@@ -59,7 +59,7 @@ function Contact (props){
                         <img src={`${img_ico[6].img}`} alt=''/>
                         <input 
                         type='text'
-                        name='user_email'
+                        name='email_id'
                         />
                     </div>
 
