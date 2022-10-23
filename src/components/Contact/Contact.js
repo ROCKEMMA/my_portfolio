@@ -1,20 +1,27 @@
-import { useState } from 'react';
+import React, { useRef } from 'react';
 import './Contact.css';
 import img_ico from '../../assets/ico/list_img_ico';
+import emailjs from '@emailjs/browser';
+
 
 
 function Contact (props){
 
-    const [value, setValue] = useState({nombre: '', correo: '', mensaje:''});
-
-    const handleChange = (e) => {
-        setValue((state)=>({
-            ...state,
-            [e.target.name] : e.target.value
-        }));
-    }
-
-    console.log(value);
+    // PROGRAMACIÓN DE LA API
+    const form = useRef();
+    const myForm = document.querySelector('form');
+      
+    const sendEmail = (e) => {
+      e.preventDefault();
+      
+      emailjs.sendForm('service_lod5trq', 'template_b40hr0b', form.current, 'G5o3t0hG-CRduk9k')
+        .then((result) => {
+            console.log(result.text);
+            myForm.reset();
+        }, (error) => {
+            console.log(error.text);
+    });}
+    
 
     return(
         <section className={`section-contact section-applies ${props.page === 5 ? "active" : null}`}>
@@ -28,16 +35,15 @@ function Contact (props){
                     <img src='https://static.vecteezy.com/system/resources/thumbnails/004/579/307/small_2x/programmer-working-on-computer-with-lots-of-data-free-vector.jpg' alt=''/>
                 </div>
 
-                <div className='form'>
+                {/* Form section */}
+                <form className='form' ref={form} onSubmit={sendEmail}>
                     <span>Tu nombre</span>
                     <div className='input-box'>
                         <img src={`${img_ico[7].img}`} alt=''/>
                         <input 
                         type='text'
-                        name='nombre'
-                        value={value.nombre}
+                        name='user_name'
                         autoComplete='off'
-                        onChange={handleChange}
                         />
                     </div>
                     
@@ -46,28 +52,25 @@ function Contact (props){
                         <img src={`${img_ico[6].img}`} alt=''/>
                         <input 
                         type='text'
-                        name='correo'
-                        value={value.correo}
-                        autoComplete='off'
-                        onChange={handleChange}
+                        name='user_email'
                         />
                     </div>
-
 
                     <span>Mensaje</span>
                     <div className='input-box'>
                         <textarea 
                         type='text'
-                        name='mensaje'
-                        value={value.mensaje}
+                        name='message'
                         autoComplete='off'
-                        onChange={handleChange}
                         />
                     </div>
-                    <div className='btn-enviar'>
-                        Enviar
-                    </div>
-                </div>
+                    <button 
+                    className='btn-enviar' 
+                    type='submit'>
+                    Enviar
+                    </button>
+
+                </form>
     
             </div>
 

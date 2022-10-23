@@ -51,7 +51,7 @@
 }
 .input-box {
     padding: 0.5rem;
-    border: 1px solid var(--blue-hover);
+    border: 1px solid var(--text-color-opacity);
     border-radius: 5px;
     margin-bottom: 2rem;
 
