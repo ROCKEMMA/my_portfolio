@@ -6,8 +6,35 @@
 
 html {
   font-size: 10px;
+  color: var(--text-color-lite);
   font-family: 'Inter', sans-serif;
 }
+
+h1 {
+  font-size: var(--h1);
+  color: var(--blue-lite);
+  margin-bottom: 3.5rem;
+}
+
+p {
+  font-size: var(--p);
+  font-weight: 300;
+  line-height: 3rem;
+  color: var(--text-color-lite)
+}
+.section {
+  display: none;
+  max-width: 120rem;
+  margin: auto;
+}
+
+/* configuración para laptop */
+@media only screen and (max-width: 1366px) {
+  .section {
+      max-width: 90rem;
+  }
+}
+
 
 /* COLOR VARIABLES */
 :root {

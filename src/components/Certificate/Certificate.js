@@ -3,8 +3,8 @@ import './Certificate.css'
 
 function Item({image,description}){
     return(
-        <li className='item-certificate'>
-            <img className='img-certificate' src={image} alt={description}/>
+        <li className='sectionCertificate__item'>
+            <img className='sectionCertificate__img' src={image} alt={description}/>
         </li>
     );
 }
@@ -13,9 +13,9 @@ function Item({image,description}){
 function Certificate (props){
 
     return(
-        <section className={`section-certificate section-applies ${props.page === 2 ? "active" : null}`}>
-            <h2 className='title'>Certificados</h2>
-            <ul className='list-certificates'>
+        <section className={`section sectionCertificate ${props.page === 2 ? "active" : null}`}>
+            <h1>Certificados</h1>
+            <ul className='sectionCertificate__list'>
                 {
                 imgCertificates.map(img => (
                     <Item

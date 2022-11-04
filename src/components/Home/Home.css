@@ -1,42 +1,31 @@
-.section-home {
-    display: none;
-
+.sectionHome {
     max-width: 60rem;
-    margin: auto;
-
-    flex-direction: column;
 }
-.section-home h2 {
-    font-size: var(--h1);
-    color: var(--blue-lite);
+.active{
+    display: block;
 }
-.section-home .legend {
+.sectionHome__legend {
     font-weight: 600;
 }
-.section-home p {
-    font-size: var(--p);
-    font-weight: 300;
-    line-height: 3rem;
+.sectionHome__description {
     margin-top: 3rem;
-    color: var(--text-color-lite);
 }
-.section-home hr {
+.sectionHome hr {
     margin-top: 5rem;
 }
-.section-home .portfolio-link {
+.sectionHome__portfolioLink {
     margin-top: 2rem;
     text-decoration: none;
     font-size: 1.6rem;
     font-weight: 500;
 }
-.certificate-link {
+.sectionHome__certificateLink {
     display: inline;
     color: var(--text-color-dark);
     text-decoration: underline;
     cursor: pointer;
-
 }
-.section-home span {
+.sectionHome span {
     font-size: 2rem;
     font-weight: 800;
 }

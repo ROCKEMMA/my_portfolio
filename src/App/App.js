@@ -7,7 +7,7 @@ import {Stacks} from '../components/Stacks/Stacks';
 import {Portfolio} from '../components/Portfolio/Portfolio'
 import { Contact } from '../components/Contact/Contact';
 
-// hola de estilos
+// hoja de estilos
 import './App.css'
 import './MobileApp.css';
 

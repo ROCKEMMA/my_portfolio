@@ -1,34 +1,28 @@
 import './Stacks.css';
-import {img_stacks} from '../../assets/stacks/list_img_stacks';
+import { Item } from './Item/Item';
 
-
-// ITEM STACKS COMPONENT
-const StackItem = (props) =>{
-    return(
-        <div className='stacks-box'>
-            <img src={props.img} alt={props.alt}/>
-        </div>
-    );
-}
+// section data
+import { stackData } from './data';
 
 
 function Stacks (props){
-
     return(
-        <section className={`section-stacks section-applies ${props.page === 3 ? "active" : null}`}>
-            <h2 className='title'>Certificados</h2>
+        <section className={`section sectionStacks ${props.page === 3 ? "active" : null}`}>
+            
+            <h1>Habilidades</h1>
 
-            <div className='stacks'>
+            <div className='sectionStacks__stacksList'>
                 {
-                    img_stacks.map(img => (
-                    <StackItem
-                        key={img.img}
-                        img={img.img}
-                        alt={img.alt}
-                    />
+                    stackData.map((item,index) => (
+                        <Item
+                            key={item.title}
+                            item={item}
+                            index={index}
+                        />
                     ))
                 }
             </div>
+            
         </section>
     );
 }
