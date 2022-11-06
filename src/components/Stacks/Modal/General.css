@@ -7,6 +7,9 @@
     font-weight: 500;
     color: var(--blue-dark);
 }
+.general__description {
+    line-height: 2.3rem;
+}
 
 .general__list {
     font-size: 1.4rem;
