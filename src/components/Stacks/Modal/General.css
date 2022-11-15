@@ -7,17 +7,12 @@
     font-weight: 500;
     color: var(--blue-dark);
 }
-.general__description {
-    line-height: 2.3rem;
-}
-
 .general__list {
     font-size: 1.4rem;
     margin-top: 2rem;
     padding-left: 1.3rem;
 
     display: grid;
-    /* grid-template-columns: repeat(auto-fill, minmax(50%,1fr)); */
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }

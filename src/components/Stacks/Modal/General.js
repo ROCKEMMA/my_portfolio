@@ -4,7 +4,6 @@ const General = (props) => {
     return(
         <div className='general'>
             <p className='general__title'>Tistado de temas</p>
-            <p className='general__description'>{props.description}</p>
             <ul className='general__list'>
                 {props.list.map((item, index) => (
                     <li 

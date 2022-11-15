@@ -6,7 +6,6 @@ const stackData = [
     {
         imgIco: ico('./bash.png'),
         title: 'Bash',
-        description: 'Habilidades para el desarrollo de proyectos en terminal, optimización de funciones repetitivas y automatización de tareas del sistema mediante script.',
         list: [
             'Manipulación de archivos y directorios',
             'Exploración de archivo y carpetas con wildcards',
@@ -27,7 +26,6 @@ const stackData = [
     {
         imgIco: ico('./css.png'),
         title: 'CSS',
-        description: 'Desarrollo de diseño css, maquetación y animaciones UI y UX.',
         list: [
             'Metodología BEM',
             'Animaciones básicas',
@@ -42,7 +40,6 @@ const stackData = [
     {
         imgIco: ico('./html.png'),
         title: 'HTML 5',
-        description: 'Conocimiento técnico del lenguaje para el desarrollo frontend y buenas prácticas de SEO on page.',
         list: [
             'Semántica de las etiquetas html5',
             'SEO on page',
@@ -53,7 +50,6 @@ const stackData = [
     {
         imgIco: ico('./git.png'),
         title: 'Git',
-        description: 'Conocimiento de git para el desarrollo de aplicación mediante control de versiones, trabajo experimental en ramas y buenas prácticas y comunicación con el equipo.',
         list: [
             'Inicialización de repositorio',
             'Análisis de cambios en el proyecto',
@@ -69,7 +65,6 @@ const stackData = [
     {
         imgIco: ico('./github.png'),
         title: 'GitHub',
-        description: 'Conocimientos para el trabajo de proyectos cooperativos mediante repositorios remotos.',
         list: [
             'Integración de llaves públicas y privadas.',
             'Conexión a github con SSH',
@@ -86,8 +81,7 @@ const stackData = [
     },
     {
         imgIco: ico('./ubuntu.png'),
-        title: 'GitHub',
-        description: 'Sistema operativo Linux utilizado para el desarrollo de proyectos, por la gama de herramientas disponible, comandos de la terminal y amplio soporte por la comunidad para la resolución de problemas y nuevas implementaciones.',
+        title: 'Ubuntu',
         list: [
             'Uso de la terminal',
             'Configuración de comandos para la optimización de tareas y procesos.'
@@ -96,7 +90,6 @@ const stackData = [
     {
         imgIco: ico('./discord.png'),
         title: 'Discord',
-        description: '😅',
         list: [
             'Conferencias',
             'Servidores',
@@ -106,7 +99,6 @@ const stackData = [
     {
         imgIco: ico('./excel.png'),
         title: 'Excel',
-        description: 'Manipulación de hojas de cálculo para el análisis de datos y desarrollo de informes.',
         list: [
             'Excel para el análisis de datos',
             'Creación de dashboard',
@@ -116,13 +108,130 @@ const stackData = [
     },
     {
         imgIco: ico('./figma.png'),
-        title: 'Excel',
-        description: '📝',
+        title: 'figma',
         list: [
-            'Excel para el análisis de datos',
+            'Creación de esquemas y mapas visuales.',
+            'Diseño de interfaces gráficas.',
+            'Diseño de componentes para interfaces gráficas.'
+        ]
+    },
+    {
+        imgIco: ico('./illustrator.png'),
+        title: 'Illustrator',
+        list: [
+            'Vectorización de imágenes',
+            'Retoques y creación de íconos'
+        ]
+    },
+    {
+        imgIco: ico('./photoshop.png'),
+        title: 'Photoshop',
+        list: [
+            'Transformaciones',
+            'Pinceles',
+            'Retoque fotográfico',
+            'Luces, sombras y color'
+        ]
+    },
+    {
+        imgIco: ico('./java.png'),
+        title: 'Java',
+        list: [
+            'Variables',
+            'Condicionales',
+            'Bucles',
+            'Funciones',
+            'Arrays',
+            'Java Docs',
+            'Objetos',
+            'Modularidad',
+            'Definición de clases',
+            'Getters & Setters',
+            'Interfaces'
+        ]
+    },
+    {
+        imgIco: ico('./javascript.png'),
+        title: 'JavaScript',
+        list: [
+            'Variables',
+            'Condicionales',
+            'Bucles',
+            'Operaciones matemáticas',
+            'Funciones',
+            'Arrays',
+            'Objetos',
+            'Manipulación del DOM',
+            'Interfaces',
+            'Clases',
+            'Consumo de API'
+        ]
+    },
+    {
+        imgIco: ico('./react.png'),
+        title: 'React',
+        list: [
+            'Componentes basados en clases',
+            'Uso del State',
+            'Renderizado de componentes',
+            'Componentes basados en funciones',
+            'Hooks',
+            'useState',
+            'Custom hook',
+            'useReducer',
+            'Formularios'
+        ]
+    },
+    {
+        imgIco: ico('./python.png'),
+        title: 'Python',
+        list: [
+            'Variables',
+            'Condicionales',
+            'Bucles',
+            'Operaciones matemáticas',
+            'Funciones',
+            'Arrays',
+            'Objetos'
+        ]
+    },
+    {
+        imgIco: ico('./linode.png'),
+        title: 'Linode',
+        list: [
+            'Creación de linode para web statica',
+            'Creación de linode para web en reac',
+            'Configuración de dominio',
+        ]
+    },
+    {
+        imgIco: ico('./notion.png'),
+        title: 'Notion',
+        list: [
+            'Creación de datas',
+            'Funciones aritméticas en tablas',
             'Creación de dashboard',
-            'Construcción y diseño de tablas dinámicas',
-            'Uso de macros básico competitivo'
+        ]
+    },
+    {
+        imgIco: ico('./sql.png'),
+        title: 'SQL',
+        list: [
+            'Manejo de script',
+            'Creación de base de datos',
+            'Manejo de llaves',
+            'Consultas',
+            'Actualización y eliminación de datos'
+        ]
+    },
+    {
+        imgIco: ico('./vscode.png'),
+        title: 'Visual Studio code',
+        list: [
+            'Instalación de plugis',
+            'Productividad',
+            'Personalización',
+            'Uso de la terminal'
         ]
     }
 ];

@@ -28,7 +28,7 @@ const Modal = (props) => {
                     {/* MODAL NAV BAR*/}
                     <ul className='modalWindow__navBar'>
                         <li className='modalWindow__button activateButton'>Generl</li>
-                        <li className='modalWindow__button'>Proyectos & código</li>
+                        {/* <li className='modalWindow__button'>Proyectos & código</li> */}
                     </ul>
 
                     <General
@@ -43,7 +43,7 @@ const Modal = (props) => {
                         className='general__button'
                         onClick={() => props.setModal(-1)}
                         >Cerrar</div>
-                        <div className='general__button general__button--fill'>Sugerir tema</div>
+                        {/* <div className='general__button general__button--fill'>Sugerir tema</div> */}
                     </div>
                 </div>
             </dialog>
