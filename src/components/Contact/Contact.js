@@ -10,7 +10,6 @@ import emailjs from '@emailjs/browser';
 
 function Contact (props){
 
-    // REFERENCE TO DOM MODAL
     let modal = document.querySelector('#modal');
 
     // PROGRAMMING API EmailJS
@@ -83,14 +82,6 @@ function Contact (props){
                     </button>
 
                 </form>
-
-                {/* Modal section*/}
-{/*                 <dialog id='modal'>
-                    <div className='modal-content'>
-                        <p>¡Ahora estaremos en contacto!</p>
-                        <div id='btn-to-close' onClick={closeModal}>Cerrar</div>
-                    </div>
-                </dialog> */}
 
             </div>
 

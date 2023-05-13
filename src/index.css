@@ -24,8 +24,9 @@ p {
 }
 .section {
   display: none;
-  max-width: 120rem;
-  margin: auto;
+  max-width: 96rem;
+  margin: 1.6rem;
+  /* background-color: red; */
 }
 
 /* configuración para laptop */
@@ -50,5 +51,5 @@ p {
 :root {
     --h1: 4rem;
     --h2: 3.5rem;
-    --p: 1.6rem;
+    --p: 1.7rem;
 }

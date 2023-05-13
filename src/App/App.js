@@ -13,27 +13,21 @@ import './MobileApp.css';
 
 function App() {
 
-      // Estado para la vegación
-      const [page, setPage] = useState(1);
+  // Estado para la vegación
+  const [page, setPage] = useState(1);
 
   return (
 
     <div className='body'>
-      <Navbar 
-      page={page}
-      setPage={setPage}
-      />
+
+      <Navbar page={page} setPage={setPage}/>
 
       <div className='section-container'>
-        <Home 
-          page={page} 
-          setPage={setPage}
-        />
+        <Home page={page} setPage={setPage}/>
         <Certificate page={page} />
-        <Stacks page={page}/>
+        <Stacks page={page} />
         <Portfolio page={page} />
         <Contact page={page} />
-        
       </div>
 
     </div>
