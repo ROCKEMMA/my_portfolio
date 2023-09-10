@@ -6,9 +6,10 @@
     grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
     gap: 1.5rem;
 }
-.sectionCertificate__item {
+.sectionCertificate__list li {
     list-style: none;
 }
+
 .sectionCertificate__img {
     width: 100%;
 }

@@ -1,7 +1,7 @@
 import img_home from '../../assets/home/list_img_home';
 import img_ico from '../../assets/ico/list_img_ico';
 import './Navbar.css';
-import './MobileNavbar.css'
+import './MobileNavbar.css';
 
 // COMPONENTES
 import {Footer} from '../Footer/Footer';

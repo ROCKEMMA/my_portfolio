@@ -27,7 +27,7 @@ function Contact (props){
 
     // MODAL PROGRAMMING
     const closeModal = ()=> {
-        modal.close();
+        modal.close();  
         form.current.reset();
     }
 

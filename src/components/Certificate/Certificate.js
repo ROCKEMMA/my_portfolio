@@ -3,7 +3,7 @@ import './Certificate.css'
 
 function Item({image,description}){
     return(
-        <li className='sectionCertificate__item'>
+        <li>
             <img className='sectionCertificate__img' src={image} alt={description}/>
         </li>
     );
